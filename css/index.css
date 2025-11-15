@@ -1,0 +1,17 @@
+
+
+#index-full-width {
+    border-radius: 20px 20px 0 0;
+}
+
+#index-half-width-middle {
+    border-radius: 0;
+}
+
+#index-half-width-bottom-left {
+    border-radius: 0 0 0 20px;
+}
+
+#index-half-width-bottom-right {
+    border-radius: 0 0 20px 0;
+}

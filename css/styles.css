@@ -1,0 +1,90 @@
+@import url(index.css);
+@import url(explore.css);
+
+/*GLOBAL STYLES*/
+body {
+    background-color: #F2EBDC;
+}
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    color: #EB7F00;
+}
+
+h2 {
+    font-family: 'Orbitron', sans-serif;
+    color: #F2EBDC;
+    background-color: #EB7F00;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-self: center;
+    padding: 1rem 2rem;
+    width: 1600px;
+    max-width: 80vw;
+    font-family: orbitron, sans-serif;
+    font-size: 1.5em;
+    font-weight: 600;
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: #EB7F00;
+    font-size: 1.5em;
+} 
+
+.logo {
+    border: 6px solid #EB7F00;
+    border-radius: 0.5em;
+    padding: 6px;
+    font-weight: 750;
+    font-size: 2em;
+}
+
+.page-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: 1600px;
+    max-width: 80vw;
+    margin: 0 auto;
+}
+
+.full-width {
+    position: relative;
+    grid-column: 1 / -1; /* Dekker alle kolonner */
+    background-color: #F2EBDC;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.half-width {
+    position: relative;
+    background-color: #F2EBDC;
+    text-align: center;
+    border-radius: 20px;
+}
+
+img {
+    position: relative;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.page-content-text {
+    position: absolute;
+    width: 96%;
+    top: 70%;
+    max-width: 80vw;
+    z-index: 10;
+    height: fit-content;
+    padding: 2%;
+    background-color: #EB7F00;
+    color: #F2EBDC;
+    opacity: 90%;
+}
