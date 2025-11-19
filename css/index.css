@@ -18,4 +18,6 @@
 
 #index-half-width-bottom-right {
     border-radius: 0 0 20px 0;
+    height: 521.8px;
+    object-fit: cover;
 }

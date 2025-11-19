@@ -8,9 +8,7 @@ body {
 }
 
 footer {
-    position: fixed;
-    bottom: 0;
-    text-align: center;
+    position: absolute;
     display: flex;
     flex-direction: row;
     justify-self: center;
@@ -24,11 +22,12 @@ h1 {
 .secondary-h1 {
     background-color: #EB7F00;
     color: #F2EBDC;
+    font-size: 3em;
     width: 1600px;
     max-width: 80vw;
     margin: 0 auto;
     text-align: center;
-    padding: 40px 0 40px 0;
+    padding: 30px 0 30px 0;
     border-radius: 20px 20px 0 0;
 }
 
@@ -37,6 +36,13 @@ h2 {
     font-family: 'Orbitron', sans-serif;
     color: #F2EBDC;
     background-color: #EB7F00;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    color: #006060;
+    font-size: 1.2em;
+    line-height: 1.2em;
 }
 
 .nav-bar {
@@ -89,6 +95,7 @@ li a {
     background-color: #F2EBDC;
     text-align: center;
     border-radius: 20px;
+    font-size: 1.5em;
 }
 
 img {
@@ -109,4 +116,46 @@ img {
     background-color: #EB7F00;
     color: #F2EBDC;
     opacity: 90%;
+}
+
+.secondary-page-content {
+    width: 1600px;
+    margin: 0 auto;
+    max-width: 80vw;
+    padding: 40px;
+}
+
+.secondary-page-content h2 {
+    color: #006060;
+    background-color: #F2EBDC;
+}
+
+.flexbox-img-r, .flexbox-img-l {
+    display: flex;
+    flex-direction: row;
+    height: 500px;
+    padding-bottom: 150px;
+    position: relative;
+}
+
+.flexbox-img-l .flexbox-p {
+    padding-top: 80px;
+}
+
+.secondary-page-img {
+    position: relative;
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+    margin-left: auto;
+    border-radius: 0%;
+    padding-top: 40px;
+}
+
+.flexbox-text {
+    padding-right: 10%;
+}
+
+.flexbox-p {
+    width: 60%;
 }
