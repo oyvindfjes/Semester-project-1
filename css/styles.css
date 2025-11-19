@@ -4,12 +4,34 @@
 /*GLOBAL STYLES*/
 body {
     background-color: #F2EBDC;
+    margin-bottom: 100px;
 }
 
+footer {
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    height: 80px;
+}
 h1 {
     font-family: 'Orbitron', sans-serif;
     color: #EB7F00;
 }
+
+.secondary-h1 {
+    background-color: #EB7F00;
+    color: #F2EBDC;
+    width: 1600px;
+    max-width: 80vw;
+    margin: 0 auto;
+    text-align: center;
+    padding: 40px 0 40px 0;
+    border-radius: 20px 20px 0 0;
+}
+
 
 h2 {
     font-family: 'Orbitron', sans-serif;

@@ -6,10 +6,14 @@
 
 #index-half-width-middle {
     border-radius: 0;
+    height: 521.8px;
+    object-fit: cover;
 }
 
 #index-half-width-bottom-left {
     border-radius: 0 0 0 20px;
+    height: 521.8px;
+    object-fit: cover;
 }
 
 #index-half-width-bottom-right {
