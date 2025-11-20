@@ -84,7 +84,7 @@ li a {
 
 .full-width {
     position: relative;
-    grid-column: 1 / -1; /* Dekker alle kolonner */
+    grid-column: 1 / -1;
     background-color: #F2EBDC;
     text-align: center;
     border-radius: 20px;
@@ -118,10 +118,13 @@ img {
 }
 
 .secondary-page-content {
-    width: 1600px;
+    width: 1510px;
     margin: 0 auto;
-    max-width: 80vw;
+    max-width: 74vw;
     padding: 40px;
+    margin-top: 20px;
+    border:#EB7F00 solid 6px;
+    border-radius: 0 0 20px 20px;
 }
 
 .secondary-page-content h2 {
