@@ -59,6 +59,10 @@ p {
     list-style: none;
 }
 
+.nav-bar li:hover {
+    transform: rotate(5deg);
+    transition: 0.2s;
+}
 li a {
     text-decoration: none;
     color: #EB7F00;
@@ -88,6 +92,11 @@ li a {
     background-color: #F2EBDC;
     text-align: center;
     border-radius: 20px;
+}
+
+.half-width:hover {
+    transform: scale(1.02);
+    transition: 0.3s;
 }
 
 .half-width {
