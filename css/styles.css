@@ -2,10 +2,14 @@
 @import url(explore.css);
 
 /*GLOBAL STYLES*/
+
+main {
+    overflow-x: hidden;
+}
+
 body {
     background-color: #F2EBDC;
     margin-bottom: 100px;
-    overflow-x: hidden;
 }
 
 footer {
@@ -15,6 +19,11 @@ footer {
     justify-self: center;
     height: 80px;
 }
+
+.mobile-menu {
+    display: none;
+}
+
 h1 {
     font-family: 'Orbitron', sans-serif;
     color: #EB7F00;
@@ -174,7 +183,9 @@ img {
 
 @media (max-width: 1350px) {
     .page-content {
+        position: relative;
         grid-template-columns: 1fr;
+        top: 50px;
     }
 
     .flexbox-img-r, .flexbox-img-l {
@@ -185,7 +196,7 @@ img {
     .secondary-page-img {
         margin: 0 auto;
         width: 100%;
-        height: auto;
+        height: 400px;
         padding-top: 20px;
     }
 
@@ -195,5 +206,53 @@ img {
 
     .flexbox-p {
         width: 100%;
+    }
+}
+
+@media (max-width: 1000px) {
+    nav {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .nav-bar {
+        flex-direction: column;
+        display: none;
+        text-align: center;
+        align-self: center;
+    }
+
+    .nav-bar li {
+        margin: 10px 0;
+    }
+    #toggle {
+        display: none;
+    }
+    
+    #toggle:checked ~ .nav-bar {
+        display: block;
+    }
+    
+    .toggle-button {
+        padding: 20px;
+        margin: 20px;
+        align-self: center;
+        width: 50vw;
+        background-color: #EB7F00;
+        color: #F2EBDC;
+        border-radius: 20px;
+        text-align: center;
+        font-size: 2em;
+    }
+    } 
+    
+    @media (min-width: 1001px) {
+        .toggle-button {
+        display: none;
+    }
+    #toggle {
+        display: none;
     }
 }
