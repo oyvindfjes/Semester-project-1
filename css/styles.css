@@ -5,6 +5,7 @@
 body {
     background-color: #F2EBDC;
     margin-bottom: 100px;
+    overflow-x: hidden;
 }
 
 footer {
@@ -169,4 +170,30 @@ img {
 
 .flexbox-p {
     width: 60%;
+}
+
+@media (max-width: 1350px) {
+    .page-content {
+        grid-template-columns: 1fr;
+    }
+
+    .flexbox-img-r, .flexbox-img-l {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .secondary-page-img {
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+        padding-top: 20px;
+    }
+
+    .flexbox-text {
+        padding: 20px 0 0 0;
+    }
+
+    .flexbox-p {
+        width: 100%;
+    }
 }
