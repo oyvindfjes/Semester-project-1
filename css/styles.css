@@ -29,7 +29,6 @@ footer {
 
 h1 {
     font-family: 'Orbitron', sans-serif;
-    color: #EB7F00;
 }
 
 .secondary-h1 {
@@ -78,16 +77,18 @@ p {
 }
 li a {
     text-decoration: none;
-    color: #EB7F00;
+    color:#006060;
     font-size: 1.5em;
 } 
 
 .logo {
-    border: 6px solid #EB7F00;
+    border: 6px solid #006060;
     border-radius: 0.5em;
     padding: 6px;
     font-weight: 750;
     font-size: 2em;
+    color: white;
+    background-color: #EB7F00;
 }
 
 .page-content {
@@ -134,7 +135,7 @@ img {
     z-index: 10;
     height: fit-content;
     padding: 2%;
-    background-color: #EB7F00;
+    background-color: #006060;
     color: #F2EBDC;
     opacity: 90%;
 }
