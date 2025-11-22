@@ -185,7 +185,20 @@ img {
     .page-content {
         position: relative;
         grid-template-columns: 1fr;
-        top: 50px;
+        margin-top: 50px;
+    }
+
+    .page-content-text {
+        font-size: 24px;
+    }
+
+    .full-width .page-content-text {
+        font-size: 0;
+    }
+
+    .full-width .page-content-text::after {
+        content: "Making science accessible to all!";
+        font-size: 24px; 
     }
 
     .flexbox-img-r, .flexbox-img-l {
@@ -214,7 +227,10 @@ img {
         position: relative;
         display: flex;
         flex-direction: column;
-        
+    }
+
+    .secondary-h1 {
+        font-size: 2em;
     }
 
     .nav-bar {
@@ -245,14 +261,20 @@ img {
         border-radius: 20px;
         text-align: center;
         font-size: 2em;
+        font-family: orbitron, sans-serif;
     }
+
+    .secondary-page-content {
+        border: none;
     } 
     
     @media (min-width: 1001px) {
         .toggle-button {
         display: none;
     }
-    #toggle {
+        #toggle {
         display: none;
+        } 
     }
+
 }
