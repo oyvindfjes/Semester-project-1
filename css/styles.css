@@ -17,6 +17,9 @@ footer {
     display: flex;
     flex-direction: row;
     justify-self: center;
+    justify-content: space-between;
+    width: 1200px;
+    max-width: 70vw;
     height: 80px;
 }
 
@@ -198,7 +201,7 @@ img {
 
     .full-width .page-content-text::after {
         content: "Making science accessible to all!";
-        font-size: 24px; 
+        font-size: 16px; 
     }
 
     .flexbox-img-r, .flexbox-img-l {
@@ -264,9 +267,20 @@ img {
         font-family: orbitron, sans-serif;
     }
 
+    footer {
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+    footer p {
+        font-size: 0.8em;
+        
+    }
+
     .secondary-page-content {
         border: none;
     } 
+}
     
     @media (min-width: 1001px) {
         .toggle-button {
@@ -277,4 +291,4 @@ img {
         } 
     }
 
-}
+
