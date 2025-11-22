@@ -5,7 +5,7 @@
     width: 100%;
 }
 
-#index-half-width-middle {
+.index-half-width-middle {
     border-radius: 0;
     height: 521.8px;
     object-fit: cover;

@@ -73,7 +73,7 @@ p {
 }
 
 .nav-bar li:hover {
-    transform: rotate(5deg);
+    transform: translateY(-5px);
     transition: 0.2s;
 }
 li a {
@@ -108,7 +108,7 @@ li a {
 }
 
 .half-width:hover {
-    transform: scale(1.02);
+    transform: translateY(-10px);
     transition: 0.3s;
 }
 
@@ -258,8 +258,9 @@ img {
         padding: 20px;
         margin: 20px;
         align-self: center;
-        width: 50vw;
-        background-color: #EB7F00;
+        width: 74vw;
+        background-color: #006060;
+        opacity: 60%;
         color: #F2EBDC;
         border-radius: 20px;
         text-align: center;
@@ -268,7 +269,6 @@ img {
     }
 
     footer {
-        justify-content: space-evenly;
         width: 100%;
     }
 
