@@ -239,6 +239,13 @@ img {
     .secondary-page-content {
         border: none;
     } 
+
+    .full-width, .half-width {
+        overflow: hidden;
+        height: 200px;
+        border-radius: 0;
+    }
+
 }
     
     @media (min-width: 1001px) {
@@ -250,4 +257,11 @@ img {
         } 
     }
 
-
+    @media screen and (max-width:600px) {
+    .secondary-page-img {
+        height: 250px;
+        width: 100vw;
+        transform: translateX(-40px);
+    }
+} 
+    
